@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family:sans-serif;
+}
+.container{
+    max-width: 1366px;
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+    padding: 10px 5rem;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 28px;
+    font-size: 20px;
+}
+.head-section{
+    background: linear-gradient(to top, rgba(0, 2, 8, 0.7), rgba(6, 1, 31, 0.7)), url("https://codexup.com/html/banizzo/assets/imgs/hero/hero-bg.jpeg") center center/cover no-repeat ;
+    min-height: 70vh;
+    color: white;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 340px;
+    padding-bottom: 50px;
+}
+.head-section h1 {
+    font-size: 50px;
+    margin: 0;
+}
+.head-section h2{
+    color: #ff4904;
+}
+.head-section p {
+    
+    font-size: 24px;
+}
+.head-section span{
+    color: #ff4904;
+}
+.head-section button{
+    border:  1px solid #ff4904;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ff4904;
+    color: #fff;
+    margin-top: 14px;
+}
+.content-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 60px;
+}
+.card-one{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+.card-one p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.section-two{
+    margin-top: 50px;
+    padding: 100px;
+    background-color: transparent;
+}
+.section-two-left{
+    position: relative;
+}
+.section-two-img1{
+    border: 2px solid #fff;
+    padding: 5px;
+}
+.section-two-img2{
+    border: 2px solid #fff;
+    padding: 5px;
+    position: absolute;
+    left: 70%;
+    bottom: -35%;
+    background-color: #fff;
+    height: 90%;
+}
+.content-two{
+    display: flex;
+    justify-content: center;
+    gap: 360px;
+    font-size: 18px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.section-bottom{
+    margin-top: 15%;
+}
+.section-two-right h3{
+    color: #ff4904;
+}
+.section-two-right h1 span{
+    color: #ff4904;
+}
+.section-two-right p{
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 20px 5px;
+    color: #535353;
+}
+.section-two button{
+    border: 1px solid #ff4904;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff4904;
+}
+.section-three{
+    margin-top: 70px;
+}
+.section-five-top{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.section-five-top h4{
+    color: #ff4904;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.section-five-top h2{
+    font-size: 38px;
+}
+.section-five-top span{
+    color: #ff4904;
+}
+.section-five-bottom{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.sec5-img{
+    border-radius: 10px;
+}
+.section-six img{
+    margin-left: 220px;
+    margin-top: 4%;
+}
+.section-seven{
+    margin-top: 5%;
+    margin-left: 5px;
+}
+.section-eight{
+    margin-left: 10px;
+}
+.section-ten{
+    background-color: rgb(0, 0, 36);
+    border-bottom: 1px solid #e2e2e2;
+}
+.section-eleven{
+    height: 10vh;
+    background-color:rgb(0, 0, 36) ;
+}
+.section-eleven h5{
+    color: #dfdfdf;
+    font-size: 16px;
+    margin-left: 420px;
+    padding-top: 50px;
+}
+.section-eleven span{
+    color: #ff4904;
+}
